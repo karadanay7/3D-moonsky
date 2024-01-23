@@ -42,16 +42,16 @@
             <Icon name="uil:github" class="text-4xl md:text-6xl" />
           </NuxtLink>
         </div>
-        <div class="flex flex-col items-start mt-2 ml-20">
+        <div class="flex flex-col items-start mt-2 ml-14 md:ml-20">
           <NuxtLink
             to="https://aysegulk.me/projects"
             class="text-gray-50 hover:text-blue-300 text-2xl md:text-3xl"
           >
-            <p class="hidden md:inline-block">Projects!</p>
+            <p class="inline-block">Projects!</p>
           </NuxtLink>
           <Icon
             name="clarity:cursor-hand-click-line"
-            class="mt-4 animate-bounce ml-10"
+            class="mt-4 animate-bounce ml-6 md:ml-10"
             size="40"
           />
         </div>
@@ -63,7 +63,14 @@
         frameborder="0"
         width="100%"
         height="100%"
-        class="object-cover"
+        class="object-cover hidden md:block"
+      ></iframe>
+      <iframe
+        class="object-cover block md:hidden"
+        src="https://my.spline.design/3dmooncopy-08c5a418464fd71128f8611faca3716f/"
+        frameborder="0"
+        width="100%"
+        height="100%"
       ></iframe>
     </div>
   </div>
